@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  animation: body 5s infinite;
+}
+
+@keyframes body {
+  0% {
+    background-color: rgba(247, 231, 6, 0.3);
+  }
+  50% {
+    background-color: rgba(8, 238, 84, 0.3);
+  }
+  100% {
+    background-color: rgba(45, 160, 64, 0.3);
+  }
+}
+
+.heading {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 200px;
+}
+
+.cake {
+  width: 300px;
+  height: 300px;
+  bottom: 100px;
+}
+
+.party {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+  animation: party 7s infinite;
+}
+
+.party2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+  animation: party2 7s infinite;
+  animation-direction: reverse;
+}
+
+.balloon {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: balloon 15s infinite;
+}
+
+.balloon2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: balloon2 15s infinite;
+  animation-direction: reverse;
+}
+
+@keyframes party {
+  0% {
+    right: -120%;
+  }
+  50% {
+    right: 70%;
+  }
+  100% {
+    right: 120%;
+  }
+}
+
+@keyframes party2 {
+  0% {
+    left: 120%;
+  }
+  50% {
+    left: 70%;
+  }
+  100% {
+    left: -120%;
+  }
+}
+
+@keyframes balloon {
+  0% {
+    right: -10px;
+    top: 900px;
+  }
+  100% {
+    right: 100%;
+    top: -500px;
+  }
+}
+
+@keyframes balloon2 {
+  0% {
+    left: 1300px;
+    top: -500px;
+  }
+  100% {
+    left: -10%;
+    top: 900px;
+  }
+}
