@@ -6,13 +6,13 @@ body {
 
 @keyframes body {
   0% {
-    background-color: rgba(247, 231, 6, 0.3);
+    background-color: rgba(247, 236, 86, 0.973);
   }
   50% {
-    background-color: rgba(8, 238, 84, 0.3);
+    background-color: rgba(8, 238, 85, 0.979);
   }
   100% {
-    background-color: rgba(45, 160, 64, 0.3);
+    background-color: rgba(2, 226, 255, 0.945);
   }
 }
 
